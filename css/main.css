@@ -189,7 +189,7 @@ body {
 
 .information {
   display: grid;
-  width: 90%;
+  width: 85%;
 }
 .information .information_desc {
   display: grid;
