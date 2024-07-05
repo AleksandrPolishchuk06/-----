@@ -1,0 +1,51 @@
+.page_main {
+
+
+
+    .card {
+        position: relative;
+
+        .card1 {
+            position: absolute;
+            height: 700px;
+            background-color: red;
+            width: 5%;
+            right: 0;
+
+
+
+
+        }
+
+        .card2 {
+            position: absolute;
+            height: 700px;
+            background-color: rgb(224, 240, 4);
+            width: 5%;
+            right: 5%;
+
+
+        }
+
+        .card3 {
+            position: absolute;
+            height: 700px;
+            background-color: rgb(27, 209, 87);
+            width: 5%;
+            right: 10%;
+
+
+
+        }
+
+        .vertical_text {
+            writing-mode: vertical-rl;
+            padding: 250px 30%;
+            font-size: 30px;
+            font-weight: 500;
+
+
+
+        }
+    }
+}

@@ -1,0 +1,144 @@
+.information {
+    display: grid;
+    width: 90%;
+
+    .information_desc {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1.4fr 0.6fr 1.5fr 0.5fr;
+        gap: 40px 40px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "information_desc_title information_desc_title information_desc_title"
+            "ph1 ph2 ph3"
+            "tx1 tx2 tx3"
+            "ph4 ph5 ph6"
+            "tx4 tx5 tx6";
+    }
+
+    .information_desc_title {
+        grid-area: information_desc_title;
+        border-top: 2px solid #FB3B2D;
+        border-bottom: 2px solid #FB3B2D;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: left;
+        color: #FB3B2D;
+        display: flex;
+        align-items: center;
+        height: 100px;
+
+
+    }
+
+    .ph1 {
+        grid-area: ph1;
+        justify-self: center;
+
+    }
+
+    .ph2 {
+        grid-area: ph2;
+        justify-self: center;
+    }
+
+    .ph3 {
+        grid-area: ph3;
+        justify-self: center;
+    }
+
+    .ph4 {
+        grid-area: ph4;
+        justify-self: center;
+    }
+
+    .ph5 {
+        grid-area: ph5;
+        justify-self: center;
+    }
+
+    .ph6 {
+        grid-area: ph6;
+        justify-self: center;
+    }
+
+    .tx4 {
+        grid-area: tx4;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #FB3B2D;
+
+    }
+
+    .tx5 {
+        grid-area: tx5;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #FB3B2D;
+    }
+
+    .tx6 {
+        grid-area: tx6;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #FB3B2D;
+    }
+
+    .tx3 {
+        grid-area: tx3;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #FB3B2D;
+    }
+
+    .tx2 {
+        grid-area: tx2;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #FB3B2D;
+    }
+
+    .tx1 {
+        grid-area: tx1;
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #FB3B2D;
+    }
+
+
+    .information_title {
+        display: flex;
+        height: 90px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FB3B2D;
+        color: white;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}

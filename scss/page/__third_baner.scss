@@ -1,0 +1,53 @@
+.landing_page_desc {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    margin-top: 3px;
+    border-top: 2px solid #FB3B2D;
+
+
+    &_content {
+        border-right: 2px solid #FB3B2D;
+    }
+
+    &_title {
+
+        padding: 0 100px 35px 50px;
+        margin-top: 185px;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 100%;
+        color: #FB3B2D;
+
+    }
+
+    &_text {
+        padding: 25px 75px 25px 50px;
+        border-top: 2px solid #FB3B2D;
+        font-size: 25px;
+        line-height: 150%;
+        color: #FB3B2D;
+    }
+
+    .desc_info {
+        display: flex;
+        justify-content: space-around;
+        padding: 25px 150px 25px 150px;
+        font-size: 40px;
+        line-height: 170%;
+        text-align: center;
+        background-color: #FB3B2D;
+        color: $mainColor;
+        cursor: pointer;
+        margin-top: 3px;
+        height: 180px;
+        align-items: center;
+
+    }
+
+    .landing_page_desc_img {
+
+        justify-self: end;
+
+    }
+}

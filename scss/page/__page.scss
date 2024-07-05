@@ -1,0 +1,57 @@
+.page {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+
+
+    .page_banner {
+        display: flex;
+        flex-direction: column;
+        background-color: #FB3B2D;
+        height: 290px;
+
+        color: #FB3B2D;
+
+        &_text {
+            font-size: 35px;
+            color: $mainColor;
+            text-align: center;
+            line-height: 151%;
+            margin-top: 30px;
+
+        }
+
+        &_btns {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 85px;
+            margin-bottom: 45px;
+
+
+        }
+
+
+
+    }
+
+    .banner_btn1 {
+        @extend .other;
+        width: 200px;
+        text-align: center;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+
+    .banner_btn2 {
+        @extend .other;
+        width: 200px;
+        text-align: center;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.footer {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #FB3B2D;
+    padding-left: 50px;
+
+
+    &_nav {
+        margin-top: 45px;
+
+        &_headline,
+        &_item {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 100%;
+        }
+
+        &_headline {
+            margin-bottom: 37px;
+        }
+
+        &_item {
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+    }
+
+
+}
